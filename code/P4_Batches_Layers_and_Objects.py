@@ -1,5 +1,7 @@
 import numpy as np
 
+np.random.seed(0)
+
 x = [[1, 2, 3, 2.5],
      [2, 5, -1, 2],
      [-1.5, 2.7, 3.3, -0.8]]
