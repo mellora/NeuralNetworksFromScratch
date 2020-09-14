@@ -15,7 +15,7 @@ class LayerDense:
         self.output = np.dot(inputs, self.weights) + self.biases
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # Added to code
     layer_1 = LayerDense(4, 5)
     layer_2 = LayerDense(5, 2)
 
